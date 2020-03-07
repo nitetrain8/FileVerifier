@@ -1,0 +1,716 @@
+<Cluster>
+<Name>System Variables Mag</Name>
+<NumElts>12</NumElts>
+<Cluster>
+<Name>Temperature</Name>
+<NumElts>12</NumElts>
+<SGL>
+<Name>P Gain (%/C)</Name>
+<Val>50.00000</Val>
+</SGL>
+<SGL>
+<Name>I Time (min)</Name>
+<Val>26.00000</Val>
+</SGL>
+<SGL>
+<Name>D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>Beta</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Heat Manual Max (%)</Name>
+<Val>50.00000</Val>
+</SGL>
+<SGL>
+<Name>Heat Auto Max (%)</Name>
+<Val>50.00000</Val>
+</SGL>
+<SGL>
+<Name>Valid High (C)</Name>
+<Val>110.00000</Val>
+</SGL>
+<SGL>
+<Name>Valid Low (C)</Name>
+<Val>-5.00000</Val>
+</SGL>
+<SGL>
+<Name>Mismatch Thresh (C)</Name>
+<Val>0.40000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Filter Oven</Name>
+<NumElts>9</NumElts>
+<SGL>
+<Name>P Gain (%/C)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>I Time (min)</Name>
+<Val>3.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>Beta</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Heat Manual Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>Heat Auto Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Agitation</Name>
+<NumElts>17</NumElts>
+<SGL>
+<Name>P Gain (%/RPM)</Name>
+<Val>0.10000</Val>
+</SGL>
+<SGL>
+<Name>I Time (min)</Name>
+<Val>1.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>Beta</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Minimum (RPM)</Name>
+<Val>3.00000</Val>
+</SGL>
+<SGL>
+<Name>Pulse Mode Timeout (s)</Name>
+<Val>60.00000</Val>
+</SGL>
+<SGL>
+<Name>Lookup Mode Timeout (s)</Name>
+<Val>60.00000</Val>
+</SGL>
+<SGL>
+<Name>Lookup Factor (%/RPM)</Name>
+<Val>0.55000</Val>
+</SGL>
+<SGL>
+<Name>Power Auto Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>Power Auto Min (%)</Name>
+<Val>10.00000</Val>
+</SGL>
+<SGL>
+<Name>Auto Max Startup (%)</Name>
+<Val>20.00000</Val>
+</SGL>
+<SGL>
+<Name>Power Manual Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<U8>
+<Name>Number of Magnets</Name>
+<Val>2</Val>
+</U8>
+<I32>
+<Name>Samples To Average</Name>
+<Val>3</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>pH</Name>
+<NumElts>26</NumElts>
+<SGL>
+<Name>Mismatch Thresh</Name>
+<Val>5.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>Rate Fail Delta PV</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Rate Fail Delta Time (s)</Name>
+<Val>60.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 P Gain (%/pH)</Name>
+<Val>-200.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 I Time (min)</Name>
+<Val>10.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 Beta</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 Manual Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>CO2 Auto Max (%)</Name>
+<Val>30.00000</Val>
+</SGL>
+<SGL>
+<Name>Base P Gain (%/pH)</Name>
+<Val>10.00000</Val>
+</SGL>
+<SGL>
+<Name>Base I Time (min)</Name>
+<Val>50.00000</Val>
+</SGL>
+<SGL>
+<Name>Base D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Base Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>Base Beta</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Base Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Base Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>Base Manual Max (%)</Name>
+<Val>50.00000</Val>
+</SGL>
+<SGL>
+<Name>Base Auto Max (%)</Name>
+<Val>50.00000</Val>
+</SGL>
+<U8>
+<Name>A Use Temp Comp?</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>B Use Temp Comp?</Name>
+<Val>1</Val>
+</U8>
+<SGL>
+<Name>Deadband</Name>
+<Val>2.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>Valid High (pH)</Name>
+<Val>14.00000</Val>
+</SGL>
+<SGL>
+<Name>Valid Low (pH)</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>DO</Name>
+<NumElts>22</NumElts>
+<SGL>
+<Name>Mismatch Thresh (DO%)</Name>
+<Val>5.00000</Val>
+</SGL>
+<SGL>
+<Name>Valid High (DO%)</Name>
+<Val>200.00000</Val>
+</SGL>
+<SGL>
+<Name>Valid Low (DO%)</Name>
+<Val>-10.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 P Gain (%/DO%)</Name>
+<Val>1.50000</Val>
+</SGL>
+<SGL>
+<Name>O2 I Time (min)</Name>
+<Val>120.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Beta</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Manual Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Auto Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 P Gain (%/DO%)</Name>
+<Val>-5.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 I Time (min)</Name>
+<Val>50.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 D Time (min)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Alpha</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Beta</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Gamma</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Linearity</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Manual Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Auto Max (%)</Name>
+<Val>100.00000</Val>
+</SGL>
+<SGL>
+<Name>Deadband (DO%)</Name>
+<Val>1.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Level</Name>
+<NumElts>11</NumElts>
+<SGL>
+<Name>Radius (cm)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Empty Level (V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Empty Level (L)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>cm/psi</Name>
+<Val>70.35800</Val>
+</SGL>
+<SGL>
+<Name>Vessel Depth (cm)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Bottom Gap (cm)</Name>
+<Val>0.00000</Val>
+</SGL>
+<U8>
+<Name>Enable Sensor (0 or 1)</Name>
+<Val>1</Val>
+</U8>
+<SGL>
+<Name>CalLevelSlopeMax(psi/V)</Name>
+<Val>9000.00000</Val>
+</SGL>
+<SGL>
+<Name>CalLevelSlopeMin(psi/V)</Name>
+<Val>5000.00000</Val>
+</SGL>
+<SGL>
+<Name>CalLevelInterceptMax(psi)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>CalLevelInterceptMin(psi)</Name>
+<Val>-10.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Pressure</Name>
+<NumElts>6</NumElts>
+<SGL>
+<Name>Disconnected Pressure (V)</Name>
+<Val>5.00000E-3</Val>
+</SGL>
+<SGL>
+<Name>CalPressureInterceptMax(psi)</Name>
+<Val>1.50000</Val>
+</SGL>
+<SGL>
+<Name>CalPressureInterceptMin(psi)</Name>
+<Val>-1.50000</Val>
+</SGL>
+<SGL>
+<Name>CalPressureSlopeMax(psi/V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>CalPressureSlopeMin(psi/V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<U8>
+<Name>Reusable Sensor (0 or 1)</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Gas Data</Name>
+<NumElts>13</NumElts>
+<SGL>
+<Name>CO2 Min (LPM)</Name>
+<Val>3.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>CO2 Off (V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>N2 Min (LPM)</Name>
+<Val>3.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>N2 Off (V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Air Min (LPM)</Name>
+<Val>3.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>Air Off (V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>O2 Min (LPM)</Name>
+<Val>3.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>O2 Off (V)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>PWM On Time (s)</Name>
+<Val>10.00000</Val>
+</SGL>
+<SGL>
+<Name>PWM Max Period (s)</Name>
+<Val>200.00000</Val>
+</SGL>
+<SGL>
+<Name>Mismatch Thresh (V)</Name>
+<Val>0.10000</Val>
+</SGL>
+<SGL>
+<Name>O2 Min Volume (L)</Name>
+<Val>1.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>Manual Max (LPM)</Name>
+<Val>0.50000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Safety</Name>
+<NumElts>8</NumElts>
+<SGL>
+<Name>Min Ag Power (%)</Name>
+<Val>17.00000</Val>
+</SGL>
+<SGL>
+<Name>Max Temp (C)</Name>
+<Val>45.00000</Val>
+</SGL>
+<SGL>
+<Name>Max Pressure (psi)</Name>
+<Val>0.50000</Val>
+</SGL>
+<SGL>
+<Name>Max Pressure Door (psi)</Name>
+<Val>0.10000</Val>
+</SGL>
+<SGL>
+<Name>Min Level (L)</Name>
+<Val>0.50000</Val>
+</SGL>
+<SGL>
+<Name>Max Level (L)</Name>
+<Val>4.00000</Val>
+</SGL>
+<SGL>
+<Name>Buzzer Period (ms)</Name>
+<Val>100.00000</Val>
+</SGL>
+<U8>
+<Name>DoorPressureSensor (0 or 1)</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pumps</Name>
+<NumElts>6</NumElts>
+<U16>
+<Name>Aux Low Duty</Name>
+<Val>20000</Val>
+</U16>
+<U16>
+<Name>Aux Med Duty</Name>
+<Val>30000</Val>
+</U16>
+<SGL>
+<Name>Base On Time (s)</Name>
+<Val>0.10000</Val>
+</SGL>
+<SGL>
+<Name>Base Max Period (s)</Name>
+<Val>240.00000</Val>
+</SGL>
+<SGL>
+<Name>Analog Base Speed (RPM)</Name>
+<Val>50.00000</Val>
+</SGL>
+<U8>
+<Name>Sample Reverse CW and CCW (0 or 1)</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Process Alarms</Name>
+<NumElts>32</NumElts>
+<SGL>
+<Name>Agitation Low Low (RPM)</Name>
+<Val>10.00000</Val>
+</SGL>
+<SGL>
+<Name>Agitation Low (RPM)</Name>
+<Val>15.00000</Val>
+</SGL>
+<SGL>
+<Name>Agitation High (RPM)</Name>
+<Val>35.00000</Val>
+</SGL>
+<SGL>
+<Name>Agitation High High (RPM)</Name>
+<Val>38.00000</Val>
+</SGL>
+<SGL>
+<Name>Temp Low Low (C)</Name>
+<Val>35.00000</Val>
+</SGL>
+<SGL>
+<Name>Temp Low (C)</Name>
+<Val>36.00000</Val>
+</SGL>
+<SGL>
+<Name>Temp High (C)</Name>
+<Val>38.00000</Val>
+</SGL>
+<SGL>
+<Name>Temp High High (C)</Name>
+<Val>39.00000</Val>
+</SGL>
+<SGL>
+<Name>DO Low Low (%)</Name>
+<Val>30.00000</Val>
+</SGL>
+<SGL>
+<Name>DO Low (%)</Name>
+<Val>40.00000</Val>
+</SGL>
+<SGL>
+<Name>DO High (%)</Name>
+<Val>60.00000</Val>
+</SGL>
+<SGL>
+<Name>DO High High (%)</Name>
+<Val>70.00000</Val>
+</SGL>
+<SGL>
+<Name>pH Low Low</Name>
+<Val>7.10000</Val>
+</SGL>
+<SGL>
+<Name>pH Low</Name>
+<Val>7.15000</Val>
+</SGL>
+<SGL>
+<Name>pH High</Name>
+<Val>7.25000</Val>
+</SGL>
+<SGL>
+<Name>pH High High</Name>
+<Val>7.30000</Val>
+</SGL>
+<SGL>
+<Name>Pressure Low Low (psi)</Name>
+<Val>-1.00000</Val>
+</SGL>
+<SGL>
+<Name>Pressure Low (psi)</Name>
+<Val>-0.50000</Val>
+</SGL>
+<SGL>
+<Name>Pressure High (psi)</Name>
+<Val>0.20000</Val>
+</SGL>
+<SGL>
+<Name>Pressure High High (psi)</Name>
+<Val>0.30000</Val>
+</SGL>
+<SGL>
+<Name>Level Low Low (L)</Name>
+<Val>0.50000</Val>
+</SGL>
+<SGL>
+<Name>Level Low (L)</Name>
+<Val>1.30000</Val>
+</SGL>
+<SGL>
+<Name>Level High (L)</Name>
+<Val>3.25000</Val>
+</SGL>
+<SGL>
+<Name>Level High High (L)</Name>
+<Val>3.50000</Val>
+</SGL>
+<SGL>
+<Name>Filter Oven Low Low (C)</Name>
+<Val>45.00000</Val>
+</SGL>
+<SGL>
+<Name>Filter Oven Low (C)</Name>
+<Val>47.00000</Val>
+</SGL>
+<SGL>
+<Name>Filter Oven High (C)</Name>
+<Val>53.00000</Val>
+</SGL>
+<SGL>
+<Name>Filter Oven High High (C)</Name>
+<Val>55.00000</Val>
+</SGL>
+<SGL>
+<Name>Main Gas Low Low (LPM)</Name>
+<Val>5.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>Main Gas Low (LPM)</Name>
+<Val>0.10000</Val>
+</SGL>
+<SGL>
+<Name>Main Gas High (LPM)</Name>
+<Val>0.40000</Val>
+</SGL>
+<SGL>
+<Name>Main Gas High High (LPM)</Name>
+<Val>0.45000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>System</Name>
+<NumElts>4</NumElts>
+<SGL>
+<Name>Max Data Log Interval (min)</Name>
+<Val>60.00000</Val>
+</SGL>
+<SGL>
+<Name>Alarm Snooze Time (s)</Name>
+<Val>300.00000</Val>
+</SGL>
+<U32>
+<Name>Available Mem Limit (KB)</Name>
+<Val>2000</Val>
+</U32>
+<U32>
+<Name>LCB Mem Limit (KB)</Name>
+<Val>2000</Val>
+</U32>
+</Cluster>
+</Cluster>

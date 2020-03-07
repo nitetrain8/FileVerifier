@@ -1,0 +1,82 @@
+Name, Notify, Audible
+Agitation Low Low,0,0
+Agitation Low,0,0
+Agitation High,0,0
+Agitation High High,0,0
+Temperature Low Low,0,0
+Temperature Low,0,0
+Temperature High,1,0
+Temperature High High,1,0
+DO Low Low,0,0
+DO Low,0,0
+DO High,0,0
+DO High High,0,0
+pH Low Low,0,0
+pH Low,0,0
+pH High,0,0
+pH High High,0,0
+Pressure Low Low,0,0
+Pressure Low,0,0
+Pressure High,0,0
+Pressure High High,0,0
+Level Low Low,0,0
+Level Low,0,0
+Level High,0,0
+Level High High,0,0
+Filter Oven Low Low,0,0
+Filter Oven Low,0,0
+Filter Oven High,1,0
+Filter Oven High High,1,0
+Main Gas Low Low,0,0
+Main Gas Low,0,0
+Main Gas High,1,0
+Main Gas High High,1,0
+Leak Detected,0,0
+Restarted Recipe,1,0
+Temperature Sensor Mismatch,0,0
+DO Sensor Mismatch,0,0
+pH Sensor Mismatch,0,0
+Air MFC Mismatch,1,0
+CO2 MFC Mismatch,1,0
+N2 MFC Mismatch,1,0
+O2 MFC Mismatch,1,0
+Agitation Sensor Failure,1,0
+Temp Sensor A Failure (range),1,0
+Temp Sensor B Failure (range),0,0
+Temp Dual Sensor Failure,0,0
+DO Sensor A Failure (range),0,0
+DO Sensor B Failure (range),0,0
+DO Dual Sensor Failure,0,0
+pH Sensor A Failure (range),0,0
+pH Sensor B Failure (range),0,0
+pH Sensor A Failure (rate),0,0
+pH Sensor B Failure (rate),0,0
+pH Dual Sensor Failure,0,0
+Pressure Sensor Disconnected,0,0
+Comb Plate Popped,0,0
+Dirty Startup,1,0
+Clean Startup,1,0
+Resume,1,0
+RT Mem Fragmented,1,0
+RT Mem Nearly Full,1,0
+NI 9205 Error,1,0
+NI 9425/Onboard Error,1,0
+NI 9219 Error,1,0
+NI 9476 Error,1,0
+NI 9263 Error,0,0
+12 Vdc Atom Fuse,1,0
+12 Vdc Mezz Fuse,1,0
+12 Vdc Mntr Fuse,1,0
+12 Vdc User1 Fuse,1,0
+12 Vdc User2 Fuse,1,0
+12 Vdc User3 Fuse,1,0
+24 Vdc Fill Pump Fuse,1,0
+24 Vdc Ind DO Fuse,1,0
+24 Vdc Main Fuse,1,0
+24 Vdc Mezz Fuse,1,0
+24 Vdc MFC Fuse,1,0
+24 Vdc sbRIO Fuse,1,0
+24 Vdc User1 Fuse,1,0
+24 Vdc User2 Fuse,1,0
+24 Vdc User3 Fuse,1,0
+Unknown Alarm,1,0

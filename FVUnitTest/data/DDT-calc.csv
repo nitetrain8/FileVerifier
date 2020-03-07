@@ -1,0 +1,9 @@
+name,verb,input_file,checksum,ftp,verbose
+.\case\calc\test_basic1,calc,in.txt,7ffadf5809b0a390dfdf3e6cbc1f54c3a6f4061693f5f9b02f6e16a91ac63875,,False
+.\case\calc\test_basic1,calc,in.txt,7ffadf5809b0a390dfdf3e6cbc1f54c3a6f4061693f5f9b02f6e16a91ac63875,,True
+.\case\calc\test_basic2,calc,in.txt,4f40938bc0355063a2760c82691f3756facdca0d66b7994fe18b7566353e6219,,False
+.\case\calc\test_basic2,calc,in.txt,4f40938bc0355063a2760c82691f3756facdca0d66b7994fe18b7566353e6219,,True
+.\case\calc\test_ftp1,calc,in.txt,7ffadf5809b0a390dfdf3e6cbc1f54c3a6f4061693f5f9b02f6e16a91ac63875,ftp://fvconsole_user:uRttUR3MRsF4z6UUngZ3@127.0.0.1/,False
+.\case\calc\test_ftp1,calc,in.txt,7ffadf5809b0a390dfdf3e6cbc1f54c3a6f4061693f5f9b02f6e16a91ac63875,ftp://fvconsole_user:uRttUR3MRsF4z6UUngZ3@127.0.0.1/,True
+.\case\calc\test_ftp2,calc,in.txt,4f40938bc0355063a2760c82691f3756facdca0d66b7994fe18b7566353e6219,ftp://fvconsole_user:uRttUR3MRsF4z6UUngZ3@127.0.0.1/,False
+.\case\calc\test_ftp2,calc,in.txt,4f40938bc0355063a2760c82691f3756facdca0d66b7994fe18b7566353e6219,ftp://fvconsole_user:uRttUR3MRsF4z6UUngZ3@127.0.0.1/,True

@@ -1,0 +1,70 @@
+Func LevelControl-LoopRecipe
+Wait until "LevelPV(L)" <= 2
+Set "Pumps&ValvesFillSpeed(RPM)" to 1
+Wait until "LevelPV(L)" >= 2.25
+Set "Pumps&ValvesFillSpeed(RPM)" to 0
+
+Func Addition A Slow 1min
+Set "Pumps&ValvesPumpUser1" to Low
+Wait 60 seconds
+Set "Pumps&ValvesPumpUser1" to Off
+
+Func Addition B Slow 1min
+Set "Pumps&ValvesPumpUser2" to Low
+Wait 60 seconds
+Set "Pumps&ValvesPumpUser2" to Off
+
+Func All Controls Off
+Set "AgModeUser" to Off
+Set "DOModeUser" to Off
+Set "TempModeUser" to Off
+Set "pHModeUser" to Off
+Set "MainGasModeUser" to Off
+Set "LEDWhiteLEDOn" to FALSE
+
+Func 1min_on-LoopRecipe
+Set "AgSP(RPM)" to 15
+Set "AgModeUser" to Auto
+Wait 60 seconds
+Set "AgModeUser" to Off
+Wait 900 seconds
+
+Func 30min_off-LoopRecipe
+Set "AgSP(RPM)" to 22
+Set "TempSP(C)" to 37
+Set "AgModeUser" to Auto
+Set "TempModeUser" to Auto
+Wait 60 seconds
+Set "AgSP(RPM)" to 15
+Wait until "TempPV(C)" >= 36.9
+Set "TempModeUser" to Off
+Wait 60 seconds
+Set "AgModeUser" to Off
+Wait 1800 seconds
+
+Func 60min_off-LoopRecipe
+Set "AgSP(RPM)" to 22
+Set "TempSP(C)" to 37
+Set "AgModeUser" to Auto
+Set "TempModeUser" to Auto
+Wait 60 seconds
+Set "AgSP(RPM)" to 15
+Wait until "TempPV(C)" >= 36.9
+Set "TempModeUser" to Off
+Wait 60 seconds
+Set "AgModeUser" to Off
+Wait 3600 seconds
+
+Func 120min_off-LoopRecipe
+Set "AgSP(RPM)" to 22
+Set "TempSP(C)" to 37
+Set "AgModeUser" to Auto
+Set "TempModeUser" to Auto
+Wait 60 seconds
+Set "AgSP(RPM)" to 15
+Wait until "TempPV(C)" >= 36.9
+Set "TempModeUser" to Off
+Wait 60 seconds
+Set "AgModeUser" to Off
+Wait 7200 seconds
+

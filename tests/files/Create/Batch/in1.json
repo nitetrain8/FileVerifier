@@ -1,0 +1,14 @@
+[
+    {
+        "source": "source1.txt",
+        "target": "target1.txt"
+    },
+    {
+        "source": "source2.txt",
+        "target": "target2.txt"
+    },
+    {
+        "source": "source3.txt",
+        "target": "target3.txt"
+    }
+]
